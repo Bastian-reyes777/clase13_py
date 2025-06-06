@@ -9,3 +9,10 @@ for i in range(100): #Ciclo para repetir 100 veces las iteraciones
 
 
 print(numeros) #Vizualizamos lista
+
+#Contador de numeros pares
+contador = 0
+for i in range(len(numeros)):
+    if numeros[i]%2==0:
+        contador+=1
+print(f"Cantidad de numeros pares : {contador}")
